@@ -9,7 +9,7 @@ namespace LethalCompanyPlushieScript;
 [BepInDependency("mattymatty-AsyncLoggers-1.6.2", BepInDependency.DependencyFlags.SoftDependency)]
 public class PlushieItemBehaviourPlugin : BaseUnityPlugin
 {
-    private const string ModGuid = $"LCM_PlushieItemBehaviour|{ModVersion}";
+    public const string ModGuid = $"LCM_PlushieItemBehaviour|{ModVersion}";
     private const string ModName = "Lethal Company Plushie Item Behaviour Script";
     private const string ModVersion = "1.0.0";
         
